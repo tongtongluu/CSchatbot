@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "Can I use Stripe to process ACH bank transfers?",
+  "What’s the difference between PaymentIntent and SetupIntent?",
+  "How can I implement 3D Secure authentication with Stripe Checkout?",
 ];
 
 export default function Chat() {
@@ -83,10 +83,10 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+             It's Wednesday and im a CS chatbot YAY!
             </h1>
             <p className="text-gray-500">
-              I'm part of a series of computational experiments taught by{" "}
+              heyheyhey blablabla{" "}
               <a
                 href="https://linkin.bio/yallahalim/"
                 target="_blank"
